@@ -1,8 +1,8 @@
 {
   "packageType": "installer",
-  "platform": "windows-x64",
-  "releaseNotes": "Versão 1.0.4 do AfiaCaixa",
-  "version": "1.0.4",
-  "sha256": "9e50e0c423dcf61b73cc4fd87f237deeda3026de253471afae162c47d36bfd68",
-  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.0.4/AfiaCaixa-Setup-v1.0.4.exe"
+  "releaseNotes": "Versão 1.0.5 do AfiaCaixa",
+  "version": "1.0.5",
+  "sha256": "d37ded37081cf66df110acbd1eedeff0d65a97f2bc11cfd82b888b82e06d2561",
+  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.0.5/AfiaCaixa-Setup-v1.0.5.exe",
+  "platform": "windows-x64"
 }
