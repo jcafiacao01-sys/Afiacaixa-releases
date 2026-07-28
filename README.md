@@ -5,9 +5,11 @@
 [**Baixar o instalador do AfiaCaixa**](https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/latest)
 
 1. Abra a página acima.
-2. Baixe `AfiaCaixa-Setup-vX.Y.Z.exe` na seção **Assets**.
-3. Execute o instalador e abra o AfiaCaixa pelo atalho criado.
+2. Baixe `AfiaCaixa-Windows-vX.Y.Z.zip` na seção **Assets**.
+3. Extraia o ZIP em uma pasta normal do Windows.
+4. Execute `Instalar AfiaCaixa.cmd`.
+5. Abra o AfiaCaixa pelo atalho criado.
 
-Não baixe a pasta de arquivos internos nem execute o `afiacaixa.exe` dentro de um ZIP. O instalador cria os atalhos, o desinstalador e mantém os dados do aplicativo protegidos fora da pasta de instalação.
+Se o seu Windows aceitar o instalador tradicional, `AfiaCaixa-Setup-vX.Y.Z.exe` continua disponível como fallback. Neste projeto, porém, o ZIP portátil é o canal principal para PCs onde o `Setup.exe` pode ser bloqueado.
 
 O código-fonte permanece privado. Este repositório contém apenas os instaladores e os arquivos públicos necessários para atualizações.

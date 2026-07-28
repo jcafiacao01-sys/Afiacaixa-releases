@@ -1,13 +1,13 @@
 {
-  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.0.9/AfiaCaixa-Setup-v1.0.9.exe",
-  "sha256": "7508fd1231bb116d3f5d721369e71fd60108b2ceafae9392c11182fa9d4aebc5",
-  "platform": "windows-x64",
-  "version": "1.0.9",
-  "packageType": "installer",
   "releaseNotes": [
     "Recuperação automática da chave do banco entre instalações antigas e novas.",
     "Diagnóstico local com código rastreável para falhas nas telas críticas.",
-    "Atualizador com estados explícitos: aplicando, rollback e bloqueio pelo Windows.",
-    "Botão de verificar atualização agora mostra estado real e feedback visual."
-  ]
+    "Atualizador com estados explícitos: pacote pronto, aplicando, rollback e bloqueio pelo Windows.",
+    "Canal de atualização portátil por ZIP para este PC, sem depender do Setup.exe como caminho principal."
+  ],
+  "packageType": "portable-zip",
+  "version": "1.0.9",
+  "platform": "windows-x64",
+  "sha256": "69ff834e3bf543a326170923f9ba242f7ebb0818b961471e72de74212cb9c958",
+  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.0.9/AfiaCaixa-Windows-v1.0.9.zip"
 }
