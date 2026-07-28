@@ -1,13 +1,13 @@
 {
-  "packageType": "installer",
   "releaseNotes": [
     "Novo ícone do AfiaCaixa com alicate e faísca.",
     "Aba Sobre e atualizações com versão, build e status.",
     "Sidebar reorganizada, sem arraste acidental.",
     "Correções de alinhamento e prevenção de overflow."
   ],
-  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.0.7/AfiaCaixa-Setup-v1.0.7.exe",
-  "version": "1.0.7",
-  "sha256": "b70406cbb2be595bfb6fdeb9e4c88611a64c5e66930f35e377d35466c3348324",
-  "platform": "windows-x64"
+  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.0.8/AfiaCaixa-Setup-v1.0.8.exe",
+  "sha256": "1ca7c0cea866064c3c19105dbcd10bde49e8c591c46d924e8908d0835419ee27",
+  "platform": "windows-x64",
+  "version": "1.0.8",
+  "packageType": "installer"
 }
