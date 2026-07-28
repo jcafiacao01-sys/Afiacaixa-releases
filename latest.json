@@ -1,13 +1,13 @@
 {
-  "releaseNotes": [
-    "Novo ícone do AfiaCaixa com alicate e faísca.",
-    "Aba Sobre e atualizações com versão, build e status.",
-    "Sidebar reorganizada, sem arraste acidental.",
-    "Correções de alinhamento e prevenção de overflow."
-  ],
-  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.0.8/AfiaCaixa-Setup-v1.0.8.exe",
-  "sha256": "1ca7c0cea866064c3c19105dbcd10bde49e8c591c46d924e8908d0835419ee27",
+  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.0.9/AfiaCaixa-Setup-v1.0.9.exe",
+  "sha256": "7508fd1231bb116d3f5d721369e71fd60108b2ceafae9392c11182fa9d4aebc5",
   "platform": "windows-x64",
-  "version": "1.0.8",
-  "packageType": "installer"
+  "version": "1.0.9",
+  "packageType": "installer",
+  "releaseNotes": [
+    "Recuperação automática da chave do banco entre instalações antigas e novas.",
+    "Diagnóstico local com código rastreável para falhas nas telas críticas.",
+    "Atualizador com estados explícitos: aplicando, rollback e bloqueio pelo Windows.",
+    "Botão de verificar atualização agora mostra estado real e feedback visual."
+  ]
 }
