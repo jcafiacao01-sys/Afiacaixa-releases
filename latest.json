@@ -1,13 +1,13 @@
 {
-  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.1.0/AfiaCaixa-Windows-v1.1.0.zip",
-  "packageType": "portable-zip",
-  "version": "1.1.0",
+  "packageType": "installer",
+  "version": "1.1.1",
+  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.1.1/AfiaCaixa-Setup-v1.1.1.exe",
+  "sha256": "d695a8214e5e2d059934331e93817d7e0d982555cd4d6235e3afe9f405be270e",
   "releaseNotes": [
-    "Isolamento do banco local por workspace para impedir mistura de dados entre contas diferentes.",
-    "Onboarding protegido com estados explicitos de preparacao e erro rastreavel ao abrir o planejamento do negocio.",
-    "Logout agora encerra a sincronizacao, limpa a sessao do workspace e fecha o banco antes da troca de conta.",
-    "Versao 1.1.0 preparada para validar o fluxo de atualizacao do app no Windows."
+    "Boot do Windows estabilizado com tela explícita de preparação, recuperação e erro rastreável.",
+    "Resolução do banco local separada da migração para evitar abrir ou copiar bancos no escuro durante a validação.",
+    "Recuperação guiada quando existir mais de um banco local válido para o mesmo workspace.",
+    "Atualização dentro do app temporariamente em modo somente leitura até a base Windows ficar confiável."
   ],
-  "sha256": "d76a789cdcd91e599f2de69a13982d5622824c78e2e5e3e8f7f2ad5af345ab31",
   "platform": "windows-x64"
 }
