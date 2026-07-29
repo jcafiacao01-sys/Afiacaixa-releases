@@ -1,13 +1,13 @@
 {
+  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.1.2/AfiaCaixa-Setup-v1.1.2.exe",
+  "version": "1.1.2",
   "packageType": "installer",
-  "version": "1.1.1",
-  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.1.1/AfiaCaixa-Setup-v1.1.1.exe",
-  "sha256": "d695a8214e5e2d059934331e93817d7e0d982555cd4d6235e3afe9f405be270e",
+  "platform": "windows-x64",
   "releaseNotes": [
-    "Boot do Windows estabilizado com tela explícita de preparação, recuperação e erro rastreável.",
-    "Resolução do banco local separada da migração para evitar abrir ou copiar bancos no escuro durante a validação.",
-    "Recuperação guiada quando existir mais de um banco local válido para o mesmo workspace.",
-    "Atualização dentro do app temporariamente em modo somente leitura até a base Windows ficar confiável."
+    "Correção do branco/transparente na abertura com splash inicial e rastreamento de boot no Windows.",
+    "Bootstrap do workspace refeito para evitar ciclo entre workspace, auditoria local e banco.",
+    "Subida inicial mais estável, sem duplicar a resolução do workspace durante o login.",
+    "Atualização dentro do app continua só informativa; instalação da versão segue pelo Setup oficial para evitar erro neste PC."
   ],
-  "platform": "windows-x64"
+  "sha256": "4954f996c75e378052d9291fd8b22ba8feacd8b311b8381de583a26f7cec60a3"
 }
