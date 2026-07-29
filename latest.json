@@ -1,13 +1,14 @@
 {
-  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.1.2/AfiaCaixa-Setup-v1.1.2.exe",
-  "version": "1.1.2",
-  "packageType": "installer",
   "platform": "windows-x64",
+  "version": "1.1.3",
   "releaseNotes": [
-    "Correção do branco/transparente na abertura com splash inicial e rastreamento de boot no Windows.",
-    "Bootstrap do workspace refeito para evitar ciclo entre workspace, auditoria local e banco.",
-    "Subida inicial mais estável, sem duplicar a resolução do workspace durante o login.",
-    "Atualização dentro do app continua só informativa; instalação da versão segue pelo Setup oficial para evitar erro neste PC."
+    "Sidebar redesenhada: ícones de Config/Backup/Equipe lado a lado no rodapé, botão de colapsar flutuante na borda direita semi-transparente, sync movido pro rodapé — elimina scroll.",
+    "Tela cinza/corrigida: AppBackground agora sempre pinta fundo sólido como fallback, impedindo que o fundo nativo do Windows apareça.",
+    "Estabilidade auth no Windows: workaround de polling para authStateChanges em PCs onde o plugin Firebase dispara eventos em thread errada.",
+    "UIThreadPolicy configurado no runner Windows para estabilizar a renderização do Flutter no desktop.",
+    "Bootstrap do workspace isolado para quebrar ciclo entre workspace, auditoria e banco."
   ],
-  "sha256": "4954f996c75e378052d9291fd8b22ba8feacd8b311b8381de583a26f7cec60a3"
+  "packageType": "installer",
+  "sha256": "1a3903cda38efdc6385b464e7d2eb306a926869f3b76891cad7be4ca476dcdc5",
+  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.1.3/AfiaCaixa-Setup-v1.1.3.exe"
 }
