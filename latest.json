@@ -1,15 +1,12 @@
 {
-  "version": "1.1.5",
-  "releaseNotes": [
-    "Fix: app não fecha mais sozinho — AppLaunchCoordinator agora continua sem redirecionar quando o executável canonical não existe",
-    "Fix: banco múltiplo auto-resolve — quando há dois bancos válidos para o mesmo workspace, o mais recente é selecionado automaticamente",
-    "Auto-update habilitado — o app agora baixa e aplica atualizações do GitHub automaticamente",
-    "Startup unificado: sessão, workspace e banco resolvidos por pipeline único",
-    "Conta nova com workspace pessoal automático",
-    "Logout e troca de conta mais seguros"
-  ],
-  "platform": "windows-x64",
-  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.1.5/AfiaCaixa-Setup-v1.1.5.exe",
   "packageType": "installer",
-  "sha256": "f96c3a4cc6552e75dd7863439666a6dde78b7bf96591a4d7c79b0706e671a93b"
+  "version": "1.1.6",
+  "releaseNotes": [
+    "Hotfix de Windows: reduz o risco de tela branca e fechamento logo apos abrir o app",
+    "Boot mais seguro: inicializacao do Firebase e da janela com diagnostico mais estavel",
+    "Melhoria no exitSilently e limpeza de codigo morto no fluxo de encerramento"
+  ],
+  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.1.6/AfiaCaixa-Setup-v1.1.6.exe",
+  "platform": "windows-x64",
+  "sha256": "5d3d11eefd2f3f02b1bb2ecf2715a3ccc912d04cdfc62e9918d25146ccf15935"
 }
