@@ -1,12 +1,12 @@
 {
-  "packageType": "installer",
-  "version": "1.1.6",
+  "version": "1.1.7",
+  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.1.7/AfiaCaixa-Setup-v1.1.7.exe",
   "releaseNotes": [
-    "Hotfix de Windows: reduz o risco de tela branca e fechamento logo apos abrir o app",
-    "Boot mais seguro: inicializacao do Firebase e da janela com diagnostico mais estavel",
-    "Melhoria no exitSilently e limpeza de codigo morto no fluxo de encerramento"
+    "Startup mais determinístico: conta, workspace e banco resolvidos em sequência",
+    "Sincronização não inicia antes do workspace correto estar confirmado",
+    "Instalação oficial pelo Setup; atualização automática permanece suspensa no Windows"
   ],
-  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.1.6/AfiaCaixa-Setup-v1.1.6.exe",
   "platform": "windows-x64",
-  "sha256": "5d3d11eefd2f3f02b1bb2ecf2715a3ccc912d04cdfc62e9918d25146ccf15935"
+  "sha256": "d84f7107aea88cd3c93d624c87c922cd9716e92adb88ab54a195f544f110263b",
+  "packageType": "installer"
 }
