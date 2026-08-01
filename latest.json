@@ -1,13 +1,18 @@
 {
-    "version":  "1.1.11",
-    "downloadUrl":  "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.1.11/AfiaCaixa-Setup-v1.1.11.exe",
-    "sha256":  "468505a417452ce7613beb2325d0bd75aff60792e8b5b9e6b4edc20de73783f5",
-    "releaseNotes":  [
-                         "Runtime MSVC x64 incluido no Setup para funcionar em PCs sem Visual C++ instalado.",
-                         "Inicializacao Windows deterministica e diagnostico pos-primeiro-frame.",
-                         "Sincronizacao e backup isolados do shell.",
-                         "Correcao do crash nativo no envio Firestore do Windows."
-                     ],
-    "platform":  "windows-x64",
-    "packageType":  "installer"
+  "msixSubmissionAsset": "AfiaCaixa-MSIX-v1.2.0.msix",
+  "releaseNotes": [
+    "Inicializacao deterministica entre autenticacao, workspace e banco",
+    "Sync e backup iniciam isolados e nao derrubam o shell quando falham",
+    "Layout responsivo sem alteracao de provider durante a renderizacao",
+    "Diagnostico pos-primeiro-frame para investigar falhas no Windows",
+    "Instalacao oficial pelo Setup; atualizacao automatica permanece suspensa no Windows",
+    "Runtime MSVC x64 incluido no Setup para funcionar em PCs sem Visual C++ instalado",
+    "Pacote MSIX gerado e validado para submissão à Microsoft Store; o Setup permanece como fallback"
+  ],
+  "msixSha256": "74bfea220e771a01760a14f3a44a1d2481d63edd7348c1cc87088d805e2c6dd4",
+  "sha256": "97c3b8d3c49f8c40702ba568c908603126036e192f5f10f1fbae7a3762122b8a",
+  "version": "1.2.0",
+  "platform": "windows-x64",
+  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.2.0/AfiaCaixa-Setup-v1.2.0.exe",
+  "packageType": "installer"
 }
