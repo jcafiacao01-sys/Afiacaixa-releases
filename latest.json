@@ -6,7 +6,7 @@
     "Sincronização não inicia antes do workspace correto estar confirmado",
     "Instalação oficial pelo Setup; atualização automática permanece suspensa no Windows"
   ],
+  "sha256": "87d469dadd151159ab5a0244ae6aceb13d6358eb742913a9a3ddbf356b04d572",
   "platform": "windows-x64",
-  "sha256": "d84f7107aea88cd3c93d624c87c922cd9716e92adb88ab54a195f544f110263b",
   "packageType": "installer"
 }
