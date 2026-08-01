@@ -1,12 +1,14 @@
 {
-  "version": "1.1.7",
-  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.1.7/AfiaCaixa-Setup-v1.1.7.exe",
   "releaseNotes": [
-    "Startup mais determinístico: conta, workspace e banco resolvidos em sequência",
-    "Sincronização não inicia antes do workspace correto estar confirmado",
+    "Startup mais seguro: conta, workspace e banco resolvidos sem misturar sessões",
+    "Sincronização nunca usa o caminho legado quando o workspace não foi confirmado",
+    "Logout fecha banco e sincronização antes de permitir outra conta",
+    "Login Google informa claramente quando não está configurado nesta build",
     "Instalação oficial pelo Setup; atualização automática permanece suspensa no Windows"
   ],
-  "sha256": "87d469dadd151159ab5a0244ae6aceb13d6358eb742913a9a3ddbf356b04d572",
+  "packageType": "installer",
+  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.1.8/AfiaCaixa-Setup-v1.1.8.exe",
+  "sha256": "dca347f3c4d2473a844934eae7e3259aa0191fbf6de706e878c12ad235d12905",
   "platform": "windows-x64",
-  "packageType": "installer"
+  "version": "1.1.8"
 }
