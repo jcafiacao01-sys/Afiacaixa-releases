@@ -1,16 +1,13 @@
 {
-  "version": "1.1.9",
-  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.1.9/AfiaCaixa-Setup-v1.1.9.exe",
-  "sha256": "37935006f81f66524ca383a20f85c040a954bb0ee5509b0a00177672aa1e2a60",
-  "releaseNotes": [
-    "Inicialização sem tela presa: o app monta a interface enquanto preferências carregam",
-    "Janela fora da tela é restaurada automaticamente no Windows",
-    "Startup mais seguro: conta, workspace e banco resolvidos sem misturar sessões",
-    "Sincronização nunca usa o caminho legado quando o workspace não foi confirmado",
-    "Logout fecha banco e sincronização antes de permitir outra conta",
-    "Login Google informa claramente quando não está configurado nesta build",
-    "Instalação oficial pelo Setup; atualização automática permanece suspensa no Windows"
-  ],
-  "platform": "windows-x64",
-  "packageType": "installer"
+    "version":  "1.1.10",
+    "downloadUrl":  "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.1.10/AfiaCaixa-Setup-v1.1.10.exe",
+    "sha256":  "35a40846c41995941a18de1c896cdced7f8198fc3fee210f882bbd7edc6a3bd1",
+    "releaseNotes":  [
+                         "Inicializacao Windows deterministica e diagnostico pos-primeiro-frame.",
+                         "Sincronizacao e backup isolados do shell.",
+                         "Correcao do crash nativo no envio Firestore do Windows.",
+                         "Workflow fixado no Flutter 3.44.0 com smoke real do instalador."
+                     ],
+    "platform":  "windows-x64",
+    "packageType":  "installer"
 }
