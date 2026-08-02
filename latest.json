@@ -1,4 +1,5 @@
 {
+  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.2.0/AfiaCaixa-Setup-v1.2.0.exe",
   "msixSubmissionAsset": "AfiaCaixa-MSIX-v1.2.0.msix",
   "releaseNotes": [
     "Inicializacao deterministica entre autenticacao, workspace e banco",
@@ -9,10 +10,9 @@
     "Runtime MSVC x64 incluido no Setup para funcionar em PCs sem Visual C++ instalado",
     "Pacote MSIX gerado e validado para submissão à Microsoft Store; o Setup permanece como fallback"
   ],
-  "msixSha256": "74bfea220e771a01760a14f3a44a1d2481d63edd7348c1cc87088d805e2c6dd4",
-  "sha256": "97c3b8d3c49f8c40702ba568c908603126036e192f5f10f1fbae7a3762122b8a",
-  "version": "1.2.0",
   "platform": "windows-x64",
-  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.2.0/AfiaCaixa-Setup-v1.2.0.exe",
-  "packageType": "installer"
+  "msixSha256": "5621680016d0d052615283710dc5d7613bec55072e94f10bcde5c9f77cb46f02",
+  "packageType": "installer",
+  "sha256": "f2ae7077e127ddabb2e6a8fb3ad3481b08360870655d38202de9b2b0e49a7a15",
+  "version": "1.2.0"
 }
