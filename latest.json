@@ -1,11 +1,7 @@
 {
-  "packageType": "installer",
-  "version": "1.2.2",
-  "sha256": "74e554abc528ab5da5cabe6dda5b4b72374fb88a6715d1453726ac5b699a3b02",
-  "msixSubmissionAsset": "AfiaCaixa-MSIX-v1.2.2.msix",
-  "platform": "windows-x64",
-  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.2.2/AfiaCaixa-Setup-v1.2.2.exe",
+  "msixSubmissionAsset": "AfiaCaixa-MSIX-v1.2.3.msix",
   "releaseNotes": [
+    "Corrige a criação de contas novas: workspace, membro e índice privado são autorizados e gravados atomicamente",
     "Isolamento de avatar, perfil, identidade e credenciais por conta e workspace",
     "Regras Firestore endurecidas para membros, perfil, identidade e catalogo",
     "Falhas de sincronizacao permanecem recuperaveis e aparecem como pendencia explicita",
@@ -19,5 +15,10 @@
     "Botão Nova venda do cliente abre o atendimento com o cliente selecionado",
     "PDV permanece disponível pelo CTA Nova venda em todos os templates"
   ],
-  "msixSha256": "47c71867134ff2f805bb3c431934f0afbde43a3fb5b0cf692caae74355eac16b"
+  "sha256": "4187f46f503503417d2a01b5617d3eee070632313f05432df9f9a51e0376cf78",
+  "platform": "windows-x64",
+  "msixSha256": "c5ea1e2f530336aabc09993418e534d57e1fefdd6c87cf78c771e1ca7a45df44",
+  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.2.3/AfiaCaixa-Setup-v1.2.3.exe",
+  "packageType": "installer",
+  "version": "1.2.3"
 }
