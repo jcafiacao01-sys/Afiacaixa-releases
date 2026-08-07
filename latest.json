@@ -1,20 +1,23 @@
 {
   "packageType": "installer",
-  "msixSubmissionAsset": "AfiaCaixa-MSIX-v1.2.1.msix",
-  "version": "1.2.1",
-  "msixSha256": "789b291112fcbb843bad37b14e3c2892f18cc20d822f75a3b704dd38d71f7e08",
-  "sha256": "41a4d8ce96d4103ccbde6eec13655f9ff32693e98e8b2c27c88818938364730f",
-  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.2.1/AfiaCaixa-Setup-v1.2.1.exe",
+  "version": "1.2.2",
+  "sha256": "74e554abc528ab5da5cabe6dda5b4b72374fb88a6715d1453726ac5b699a3b02",
+  "msixSubmissionAsset": "AfiaCaixa-MSIX-v1.2.2.msix",
+  "platform": "windows-x64",
+  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.2.2/AfiaCaixa-Setup-v1.2.2.exe",
   "releaseNotes": [
+    "Isolamento de avatar, perfil, identidade e credenciais por conta e workspace",
+    "Regras Firestore endurecidas para membros, perfil, identidade e catalogo",
+    "Falhas de sincronizacao permanecem recuperaveis e aparecem como pendencia explicita",
     "Inicializacao deterministica entre autenticacao, workspace e banco",
     "Sync e backup iniciam isolados e nao derrubam o shell quando falham",
     "Layout responsivo sem alteracao de provider durante a renderizacao",
     "Diagnostico pos-primeiro-frame para investigar falhas no Windows",
-    "Instalacao oficial pelo Setup; atualizacao automatica permanece suspensa no Windows",
+    "Instalacao oficial pelo Setup; atualizador verifica, valida o hash e aplica a versao no fechamento",
     "Runtime MSVC x64 incluido no Setup para funcionar em PCs sem Visual C++ instalado",
     "Pacote MSIX gerado e validado para submissão à Microsoft Store; o Setup permanece como fallback",
     "Botão Nova venda do cliente abre o atendimento com o cliente selecionado",
     "PDV permanece disponível pelo CTA Nova venda em todos os templates"
   ],
-  "platform": "windows-x64"
+  "msixSha256": "47c71867134ff2f805bb3c431934f0afbde43a3fb5b0cf692caae74355eac16b"
 }

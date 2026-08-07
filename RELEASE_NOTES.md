@@ -1,3 +1,3 @@
-Versão 1.2.1 do AfiaCaixa
+Versão 1.2.2 do AfiaCaixa
 
-Baixe o instalador AfiaCaixa-Setup-v1.2.1.exe na seção Assets desta Release.
+Baixe o instalador AfiaCaixa-Setup-v1.2.2.exe na seção Assets desta Release.
