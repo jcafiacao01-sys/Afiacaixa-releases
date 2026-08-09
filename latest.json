@@ -1,6 +1,9 @@
 {
-  "packageType": "installer",
+  "sha256": "6d1fd0633d2afa5f549530a616919cc463d93179305bf25015ba6bea0f8263f1",
+  "msixSha256": "1664c8855bf82da058dee645b15af90f63b944d72ca096aeb4cacc088fe62737",
+  "version": "1.2.5",
   "releaseNotes": [
+    "Corrige a autorizacao do dono durante a migracao de dados legados para o workspace",
     "Corrige a migracao de dados legados para o workspace sem enfraquecer as regras do Firestore",
     "Preserva documentos antigos e normaliza clientes, catalogo, estoque e itens de servico antes do envio",
     "Corrige o crash do botao Ajuda quando a barra superior esta fora do Navigator",
@@ -18,10 +21,8 @@
     "Botão Nova venda do cliente abre o atendimento com o cliente selecionado",
     "PDV permanece disponível pelo CTA Nova venda em todos os templates"
   ],
-  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.2.4/AfiaCaixa-Setup-v1.2.4.exe",
-  "version": "1.2.4",
-  "msixSha256": "7d0d6183f0acbcc756c95fe20882f3e454e65081496d0db8d2185d3c93f36c97",
-  "msixSubmissionAsset": "AfiaCaixa-MSIX-v1.2.4.msix",
-  "sha256": "59a09538b51b6a7bd24980175d80581c6ac897aac00b118238fc4641d9d1403b",
-  "platform": "windows-x64"
+  "msixSubmissionAsset": "AfiaCaixa-MSIX-v1.2.5.msix",
+  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.2.5/AfiaCaixa-Setup-v1.2.5.exe",
+  "platform": "windows-x64",
+  "packageType": "installer"
 }
