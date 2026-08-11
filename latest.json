@@ -1,9 +1,22 @@
 {
-  "packageType": "installer",
-  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.2.6/AfiaCaixa-Setup-v1.2.6.exe",
+  "version": "1.2.7",
   "platform": "windows-x64",
-  "msixSubmissionAsset": "AfiaCaixa-MSIX-v1.2.6.msix",
+  "packageType": "installer",
+  "channel": "stable",
+  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.2.7/AfiaCaixa-Setup-v1.2.7.exe",
+  "sha256": "f496b8db1495eafeef9e1bba23d64ccd5d0385cac1a3c5e100909ed2d79c48f8",
+  "signature": "tobf1C+OGjxgHBG97e1e0TCyiXFITudSPOxn5FlIr6jAN9P8S4QfbNJCGxKmYddz3WXDwk3eanY7avNQEZp+DA==",
+  "msixSubmissionAsset": "AfiaCaixa-MSIX-v1.2.7.msix",
+  "msixSha256": "06b9326612d1bc0bbd64497815e1c494b2e13fc8c960112411d224e26b4f6ae7",
+  "portableAsset": "AfiaCaixa-Windows-v1.2.7.zip",
+  "portableSha256": "c3814c9b0c2236eaabf08b4558f97b5dc691722963a0e90425a73f83fb4c5fe3",
+  "commit": "c915fede05e3ba623c609b3032aaba5b9076608a",
   "releaseNotes": [
+    "Estabiliza logout, novo login e troca de workspace sem reutilizar banco fechado",
+    "Protege a migracao 27 para 28 com snapshot cifrado e restauracao rastreavel",
+    "Sincroniza e confere as 17 colecoes por um registro canonico",
+    "Mantem sidebar, voltar e avancar visiveis em toda rota autenticada",
+    "Restaura update automatico assinado com instalar agora, ao fechar ou adiar 24 horas",
     "Corrige a leitura das colecoes legadas durante a migracao para o workspace",
     "Mantem a migracao legada restrita ao proprio UID com regras explicitas",
     "Corrige a migracao de dados legados para o workspace sem enfraquecer as regras do Firestore",
@@ -22,8 +35,5 @@
     "Pacote MSIX gerado e validado para submissão à Microsoft Store; o Setup permanece como fallback",
     "Botão Nova venda do cliente abre o atendimento com o cliente selecionado",
     "PDV permanece disponível pelo CTA Nova venda em todos os templates"
-  ],
-  "msixSha256": "6248739623c270afdcf912fc86b438a46a95dbc0cb6278a4e1f18387e0c62aa2",
-  "version": "1.2.6",
-  "sha256": "5b7e3ef497a8f0fa80e65dba6ef665d07e4aa71b097fa5bd378af7e758c60eda"
+  ]
 }
