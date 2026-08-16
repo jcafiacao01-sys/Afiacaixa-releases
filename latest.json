@@ -1,16 +1,16 @@
 {
-  "version": "1.3.3",
+  "version": "1.3.4",
   "platform": "windows-x64",
   "packageType": "installer",
   "channel": "stable",
-  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.3.3/AfiaCaixa-Setup-v1.3.3.exe",
-  "sha256": "d983f0a50735333d018a407cc7d70b94d4f8db1b5edc748cf684461c570c9066",
-  "signature": "ysHMDG5c/ebC2rFJemp9t490xVXFgRnGx/r/vbWY0dE8dbow4+3VB1VysdUPP8Jzdw0HxyR6+dhIjtElqqsJDw==",
-  "msixSubmissionAsset": "AfiaCaixa-MSIX-v1.3.3.msix",
-  "msixSha256": "2a8c612db45ae465670879924d530b7b46687ccf88928f993ac0074029a58fc3",
-  "portableAsset": "AfiaCaixa-Windows-v1.3.3.zip",
-  "portableSha256": "c2f3f5adc51a031484dc58f351acd8c9793aefded9282dec98164a86f9784252",
-  "commit": "97fe515b64f19dffd39093df329ad6852f17137d",
+  "downloadUrl": "https://github.com/jcafiacao01-sys/Afiacaixa-releases/releases/download/v1.3.4/AfiaCaixa-Setup-v1.3.4.exe",
+  "sha256": "8bab8cdcb7f3bda9529a01c7297a9e9f1341669744032c69cc94180af2981ee8",
+  "signature": "KdHye/9vXBUfvRLL6Loj6GPbjmq48yVS7b4UBfAMStFU7O2F0mDUY6+dYMN+QcYKmbDDLykrfCK5J+mQGwJ4Aw==",
+  "msixSubmissionAsset": "AfiaCaixa-MSIX-v1.3.4.msix",
+  "msixSha256": "66f5a3b93a7c82dcb1ccdaa3d027c236e555d7ceb014510492c7a0c571b55894",
+  "portableAsset": "AfiaCaixa-Windows-v1.3.4.zip",
+  "portableSha256": "648e3aef6130eaf27d0b50292c3a0afdb47acc589cab029620454293afc7e5c4",
+  "commit": "f4575e6af3e2dcf52396940e222b818a44d64230",
   "releaseNotes": [
     "Estabiliza logout, novo login e troca de workspace sem reutilizar banco fechado",
     "Protege a migracao 27 para 28 com snapshot cifrado e restauracao rastreavel",
@@ -37,6 +37,8 @@
     "PDV permanece disponível pelo CTA Nova venda em todos os templates",
     "Remove os controles de zoom que sobrepunham as datas no grafico inicial",
     "Central de clientes mostra status derivado e preserva o historico ao consolidar duplicados",
-    "Documentos comerciais exibem a chave Pix configurada e os dados do recebedor"
+    "Documentos comerciais exibem a chave Pix configurada e os dados do recebedor",
+    "Corrige textos corrompidos na seleção de mês e no intervalo exibido na Home",
+    "Mensagens de recuperação do banco passam a usar acentuação correta"
   ]
 }
